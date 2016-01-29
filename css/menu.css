@@ -1,0 +1,48 @@
+#sceneMenu {
+	display: inline-flex;
+	max-width: 960px;
+	margin: 0px;
+	padding: 50px 10px 50px 10px;
+	box-sizing: border-box;
+	color: black;
+}
+
+#sceneMenu .box-content {
+	background-color: rgba( 0, 0, 0, 0.4 ) ;
+	border: none ;
+	padding: 5px 30px 5px 30px ;
+	width: 960px ;
+	margin-top: 0px ;
+	margin-bottom: 0px ;
+}
+
+@media ( max-width:421px ) {
+    #sceneMenu .box-content {
+        width: 100% ;
+    }
+}
+
+#sceneMenu .glyphicon-letter-spacing {
+	letter-spacing: 1em ;
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

@@ -1,0 +1,299 @@
+/*-----------------------------------------------------------------*/
+/*tabela*/
+/*-----------------------------------------------------------------*/
+
+table{
+	border:solid 1px #D4D0C8;	
+	font-family: 'MS Sans Serif', 'Arial', 'Helvetica', sans-serif;
+	font-size:12px;
+	text-transform:capitalize;
+	position:absolute;
+	left:0px;
+	color:#1F1F1F;
+}
+
+div.caption {
+	display:block;
+	height:17px;	
+	text-align:left;
+	width:100%;	
+	padding-top:3px;
+	font-size:12px;
+	background-color:#E6E6E6;
+	font-weight:bold;
+	border-bottom:solid 1px #000000;
+}
+
+table thead td
+{	
+	border:solid 1px #999999;
+	border-top:none;
+	border-left:none;
+	padding:2px;
+	color:#000000;
+	height:11px;
+	color:#666666;
+} 
+
+div.divHead
+{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	display:inline-block;
+	background-image:url('../img/gridThead.jpg');
+	background-repeat:repeat-x;
+	border:none;
+	border-bottom:solid 1px #999999;
+	margin:0px;
+	padding:0px;
+}
+
+div.divHead2
+{
+	height: 17px;
+	width: 1500px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+.divHeadDatagrid
+{
+	text-align:center;
+}
+
+div.divHeadAuto{
+	position:relative;
+	overflow:auto;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:1px;
+}
+
+table tbody td
+{
+	border:dotted 1px #333333;
+	border-top:none;
+	border-left:none;
+	padding:2px;	
+}
+
+.striped
+{
+	background-color:#D0D3DD;
+}
+
+/*-----------------------------------------------------------------*/
+/*toolbar Botões*/
+/*-----------------------------------------------------------------*/
+
+.toolbar-2{
+	clear: both;
+	overflow: hidden;
+	margin: 15px 4px 10px 4px;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #EDEDED;
+}
+
+.toolbar-2 .button{
+	float: left;
+	display: inline-block;
+	height: 16px; 
+	padding: 2px 2px 2px 20px;
+	margin-left: 3px;
+	color: #640e0e;
+	cursor: pointer;
+	border: none;
+}
+
+.voltar_img{	
+	background: url('../img/voltar.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.incluir_img{
+	background: url('../img/incluir.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.salvar_img{ 
+	background: url('../img/salvar.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#clear-img{ 
+	background: url('../img/clear.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#close-img{ 
+	background: url('../img/close.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#prohibit-img{ 
+	background: url('../img/prohibit.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+/*-----------------------------------------------------------------*/
+/*Data Grid*/
+/*-----------------------------------------------------------------*/
+
+.lista {
+	position: relative;
+}
+
+.lista div{
+	clear: both;
+	overflow: hidden;
+	display: block;
+	height: 22px;
+	margin-bottom: 2px;
+	color: #640e0e;
+}
+
+.lista div label {
+	float: left;
+	height: 16px;
+	padding: 2px;
+	margin-left: 5px;	
+}
+
+.linha-a {
+	background-color: #EDEDED;
+}
+
+.linha-b {
+	background-color: white; 
+}
+
+.header {	
+	background-color: #640e0e; 
+} 
+
+.header label{
+	color: white;
+	margin-top: 2px;
+} 
+
+.coluna1{
+	width: 200px;
+}
+
+.acao{
+	width: 66px;
+	text-align: center;
+}
+
+.paginacao{
+	clear: both;
+	overflow: hidden;
+	padding: 4px;
+	margin: 10px;
+	text-align: center;
+}
+
+#bt_excluir{
+	float: left;
+	background: url('../img/excluir.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+}
+
+#bt_editar{
+	float: left;
+	background: url('../img/editar.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+}
+
+#bt_consultar{
+	float: left;
+	background: url('../img/consultar.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*Data field*/
+/*-----------------------------------------------------------------*/
+
+fieldset{
+	margin: 10px;
+	padding: 4px;
+	border: solid 1px #B5B5B5;
+}
+
+
+.label{
+	clear: both;
+	display: block;
+	padding: 2px;
+	margin: 1px;
+	color: #640e0e;
+}
+
+.label span{
+	color: red;
+}
+
+.label samp{
+	display: inline-block;
+	padding: 2px 2px 2px 4px;
+	background-color: #eeeeee;
+	color: #640e0e;
+	margin: 1px 5px 1px 1px;
+	letter-spacing: 1px;
+}
+
+.input{
+	display: inline;
+	padding: 2px;
+	margin: 1px;
+	color: #640e0e;
+	text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+.label100{
+	display: inline-block;
+	padding: 2px 2px 2px 4px;
+	margin: 1px;
+	width: 100px;
+	background-color: #eeeeee;
+	color: #640e0e;
+}
+
+.value250{
+	display: inline;
+	overflow: hidden;
+	padding: 2px;
+	margin: 1px;
+	width: 100px;
+	color: #640e0e;
+}
+

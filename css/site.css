@@ -1,0 +1,287 @@
+html {
+	height:100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box ;
+}
+
+/*-----------------------------------------------------------------*/
+/*Toda a pagina*/
+/*-----------------------------------------------------------------*/
+body {
+	/*
+	background-image: linear-gradient(to bottom, black, #ff6600);
+	background-attachment: fixed;
+	*/
+	margin: 0px;
+	padding: 0px !important;
+	height:100%;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+/*-----------------------------------------------------------------*/
+/*Font do bootstrap*/
+/*-----------------------------------------------------------------*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    	 url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+/*-----------------------------------------------------------------*/
+/*layout*/
+/*-----------------------------------------------------------------*/
+.layout-table {
+	display: table;
+	height:100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+	border:none;
+	box-shadow: none;
+	box-sizing: border-box ;
+}
+
+.layout-table-magin {
+	padding-top: 55px;
+    padding-bottom: 45px;
+    margin: 0px !important;
+}
+
+.layout-table-cell {
+	display:table-cell;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	height:100%;
+	width:100%;
+}
+
+.table-cell-top {
+	vertical-align: top !important;
+}
+
+.height-40 {
+	height: 40px ;
+	line-height: 40px ;
+	padding: 0px 10px 0px 10px ;
+	box-sizing: border-box ;
+}
+
+.row-margin-bottom-5{
+	margin-bottom: 5px !important;
+}
+
+.input-group-100 {
+	width: 100% ;
+}
+
+/*-----------------------------------------------------------------*/
+/*Topo da pagina*/
+/*-----------------------------------------------------------------*/
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	box-sizing: border-box;
+	background-color: black;
+	z-index: 10;
+}
+
+/*-----------------------------------------------------------------*/
+/*Roda pé da pagina*/
+/*-----------------------------------------------------------------*/
+footer{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 40px;
+	width: 100%;
+	color: #ff6600;
+	box-sizing: border-box;
+	background-color: white;
+	z-index: 10;
+}
+
+/*-----------------------------------------------------------------*/
+/*Gride da tela de lista*/
+/*-----------------------------------------------------------------*/
+table.table-bordered {
+	text-align: left;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-radius: 4px;
+	background-color: white;
+}
+
+table.table-bordered tr td {
+	border:1px solid #ddd;
+	color: #08c;
+	padding: 2px !important;
+}
+
+.table {
+	width: 100%;
+    max-width: 100%;
+    margin: 0px !important;
+}
+
+/*-----------------------------------------------------------------*/
+/*Paginação da gride da tela de lista*/
+/*-----------------------------------------------------------------*/
+.paginacao a {
+	float: inherit !important;
+}
+
+.paginacao strong {
+	float: inherit !important;
+}
+
+/*-----------------------------------------------------------------*/
+/*Menssagem global do sistema*/
+/*-----------------------------------------------------------------*/
+.menssagem {
+	margin: 0px !important;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	display: none;
+	width: 100%;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 940px;
+}
+
+.footer-border {
+	border-top: 1px solid #d3d3d3;
+}
+
+.container-group {
+	margin: 10px 9px 0px 9px;
+	background-color: transparent;
+	border: 0px;
+	text-align: left;
+	border-radius: 4px;
+	height: auto;
+	display: flex;
+}
+
+.container-group h1 {
+	color: black;
+	font-size: 30px;
+	font-family: inherit;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    margin: 0px !important;
+}
+
+.form-actions {
+	margin: 10px 9px;
+	padding: 9px 10px 10px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+
+.breadcrumb-margin{
+	margin: 0px !important;
+}
+
+.breadcrumb-margin li {
+	color: #08c;
+}
+
+.breadcrumb-margin li:last-of-type {
+	color: #999;
+}
+
+.text-transform-cap {
+	text-transform: capitalize;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+label {
+	font-weight: normal;
+}
+
+.group-btn-search {
+	margin-top: 23px !important;
+}
+
+.btn {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+    padding: 3px 12px 4px;
+    border-radius: 4px;
+
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 2px rgba(0, 0, 0, 0.05);
+
+    transition: 0.1s linear all;
+}
+
+.btn-xs {
+
+	padding: 1px 5px !important;
+    font-size: 12px !important;
+}
+
+.btn-primary{
+	background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+	background-image: linear-gradient(top, #049cdb, #0064cd);
+}
+
+.btn-success{
+	background-image: -webkit-linear-gradient(to bottom,#62c462,#51a351);
+	background-image: linear-gradient(to bottom,#62c462,#51a351);
+}
+
+.informacao {
+	color: #888;
+}
+
+.form-search {
+   border-bottom: 1px solid #e5e5e5;
+
+}
+
+.form-search fieldset .row {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.form-search fieldset legend {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-align: left;
+}
+
+.requered:before{
+	content: "* ";
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.hide {
+	display: none !important;
+}
